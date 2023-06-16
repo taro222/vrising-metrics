@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffdab9; /* warmes Beige */
+}
+
+h1 {
+  color: #ff4500; /* orangerotes H1 */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffe4b5; /* hellgelbe Tabelle */
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #cccccc;
+}
+
+th {
+  background-color: #ffa07a; /* dunkelorangetöne Überschriften */
+  font-weight: bold;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.used {
+  color: #ff6347; /* kräftiges Rot für "used" */
+}
+
+.free {
+  color: #32cd32; /* sattes Grün für "free" */
+}
