@@ -42,6 +42,7 @@ function parse_metrics_data($data, $servername, $serverip) {
     $cursed_territory_used = get_value_by_metric($data, 'vr_activity_used_territories{region="CursedForest"}');
 
     echo '<body>';
+    echo '<div class="container">';
     echo '<h1>Server Information</h1>';
     echo '<table>';
 	echo '<tr>';
@@ -142,6 +143,7 @@ function parse_metrics_data($data, $servername, $serverip) {
 	echo '<td class="status free">' . $north_territory_free . '</td>';
     echo '</tr>';
     echo '</table>';
+    echo '</div>';
     echo '</body>';
     echo '</html>';
 }
