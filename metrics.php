@@ -35,7 +35,7 @@ function parse_metrics_data($data, $servername, $serverip) {
     $silver_territory_free = get_value_by_metric($data, 'vr_activity_free_territories{region="SilverlightHills"}');
     $silver_territory_used = get_value_by_metric($data, 'vr_activity_used_territories{region="SilverlightHills"}');
     $south_territory_used = get_value_by_metric($data, 'vr_activity_used_territories{region="Gloomrot_South"}');
-    $south_territory_free = get_value_by_metric($data, 'vr_activity_used_territories{region="Gloomrot_South"}');
+    $south_territory_free = get_value_by_metric($data, 'vr_activity_free_territories{region="Gloomrot_South"}');
     $north_territory_free = get_value_by_metric($data, 'vr_activity_free_territories{region="Gloomrot_North"}');
     $north_territory_used = get_value_by_metric($data, 'vr_activity_used_territories{region="Gloomrot_North"}');
     $cursed_territory_free = get_value_by_metric($data, 'vr_activity_free_territories{region="CursedForest"}');
