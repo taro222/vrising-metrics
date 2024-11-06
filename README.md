@@ -7,9 +7,10 @@ Live demo can be found [here](https://vr.sequell.de/)
 # Config
 Edit config.php to your Server IP, Display IP (extern), Port and Metricsurl of your Server
 ```
-$servername = "x5 Rate | Teleport with Items PVE Server";
-$serverip = "89.58.36.130";
-$metricsurl = "http://sequell.de:9091/metrics";
+$serverip = "localhost";			// Server IP for Pings
+$display_ip = "176.9.31.121";			// Server IP (extern)
+$serverport = 9877;				// Port
+$metricsurl = "http://localhost:9091/metrics";	// Metrics URL
 ```
 # Metricsurl
 In ServerHostSettings.json the outgoing port is configured
